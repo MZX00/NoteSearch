@@ -1,0 +1,63 @@
+env# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# FastAPI development server
+*.log
+*.pid
+*.sock
+
+# Database files
+*.db
+*.sqlite
+
+# Python test files
+*.tox/
+*.nox/
+*.coverage
+.coverage.*
+*.hypothesis/
+.pytest_cache/
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Docker
+*.docker
+Dockerfile
+docker-compose.yml
+
+# Type hinting cache
+.mypy_cache/
+.pyright/
+
+# FastAPI specific (Uvicorn)
+*.log
+
+# Coverage reports
+*.coveragerc
+coverage.xml
+*.coveralls.yml
+
+# pyenv
+.python-version
+
+# pytest
+.cache/
+
+# Environment files
+.env
+.env.*
